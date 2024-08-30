@@ -15,3 +15,9 @@ Advanced TS course
 ```
 [pnpm, npm or yarn] run test
 ```
+
+## To run any file
+
+```
+bun run <name of the file>
+```
