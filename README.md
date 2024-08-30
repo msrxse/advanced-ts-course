@@ -2,7 +2,7 @@
 
 ## About
 
-Advanced ts course
+Advanced TS course
 
 ## Install
 
