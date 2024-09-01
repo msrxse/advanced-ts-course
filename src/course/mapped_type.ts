@@ -83,7 +83,9 @@ type PersonState = {
 
 type PersonStore = Store<PersonState>
 
-// declare hack to say "trust me, this variable exists and has this type"
+// declare is used to tell the compiler "this thing (usually a variable) exists already,
+// and therefore can be referenced by other code, also there is no need to compile this
+// statement into any JavaScript"
 declare const personStore: PersonStore
 personStore.setName('John')
 personStore.setAge(20)
