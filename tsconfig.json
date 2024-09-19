@@ -6,5 +6,5 @@
     "outDir": "dist",
     "esModuleInterop": true
   },
-  "include": ["src/**/*", "src/course/.ts"]
+  "include": ["src/**/*", "src/course/.ts", "src/challenges/.ts"]
 }
